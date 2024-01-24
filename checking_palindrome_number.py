@@ -15,3 +15,10 @@ def palindrome(number):
     original_number = number
     reversed_number = int(str(number)[::-1])
 
+    if original_number == reversed_number:
+       print("yes")
+    else:
+        print("no")
+        
+palindrome(121)
+palindrome(125)
