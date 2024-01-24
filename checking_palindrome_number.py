@@ -16,9 +16,12 @@ def palindrome(number):
     reversed_number = int(str(number)[::-1])
 
     if original_number == reversed_number:
-       print("yes")
+       print("\033[1;32;40mOriginal number:", original_number)
+       print("Yes. given number is a palindrome")
+
     else:
-        print("no")
-        
+        print("Original number:", original_number)
+        print("No. given number is not a palindrome")
+
 palindrome(121)
 palindrome(125)
