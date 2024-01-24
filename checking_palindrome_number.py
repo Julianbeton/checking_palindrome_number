@@ -11,3 +11,7 @@
 # original number 125
 # No. given number is not palindrome number
 
+def palindrome(number):
+    original_number = number
+    reversed_number = int(str(number)[::-1])
+
